@@ -47,7 +47,7 @@ class _PhotoDetailState extends State<PhotoDetail> {
 
     // to download data inside phones download folder
     // 1. add dependencies ->   ext_storage: ^1.0.3
-                            // permission_handler: ^8.2.5
+                            // permission_handler: ^8.2.5 (and update compileSdkVersion 31 in app-level build.gradle)
 
     // 2. add->  in src level manifest in  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     //           <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

@@ -46,7 +46,7 @@ class _OtherFilesState extends State<OtherFiles> {
     var nemail = _auth.currentUser!.email.toString().replaceAll(".", "");
     var path = await ExtStorage.getExternalStoragePublicDirectory(ExtStorage.DIRECTORY_DOWNLOADS);
 
-    File tostorein = File("$path/$name"); // error
+    File tostorein = File("$path/$name");
 
     try{
       await storage.ref("MyCloud/$nemail/otherfiles/$name").writeToFile(tostorein);

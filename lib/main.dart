@@ -3,7 +3,6 @@
 // @dart=2.9
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter_mycloud_fn/screens/home_screen.dart';
@@ -26,7 +25,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final _auth = FirebaseAuth.instance;
-  final _dbref = FirebaseDatabase.instance.reference();
 
   bool show = false;
 
@@ -47,7 +45,6 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home:"helo".text.make()
       home: AnimatedSplashScreen(
         backgroundColor: Vx.white,
         splashIconSize: 250,
