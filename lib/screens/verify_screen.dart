@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cloud_photos/screens/home_screen.dart';
+import 'package:flutter_mycloud_fn/screens/home_screen.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class Verifyemail extends StatefulWidget {

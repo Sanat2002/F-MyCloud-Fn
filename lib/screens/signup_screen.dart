@@ -3,9 +3,9 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_cloud_photos/painters/signup_curvepainter.dart';
-import 'package:flutter_cloud_photos/screens/verify_screen.dart';
-import 'package:flutter_cloud_photos/services/authentication.dart';
+import 'package:flutter_mycloud_fn/painters/signup_curvepainter.dart';
+import 'package:flutter_mycloud_fn/screens/verify_screen.dart';
+import 'package:flutter_mycloud_fn/services/authentication.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:velocity_x/velocity_x.dart';

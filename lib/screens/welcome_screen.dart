@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_cloud_photos/painters/welcome_curvepainter.dart';
+import 'package:flutter_mycloud_fn/painters/welcome_curvepainter.dart';
 // import 'package:flutter_cloud_photos/screens/home_screen.dart';
-import 'package:flutter_cloud_photos/screens/signin_screen.dart';
-import 'package:flutter_cloud_photos/screens/signup_screen.dart';
+import 'package:flutter_mycloud_fn/screens/signin_screen.dart';
+import 'package:flutter_mycloud_fn/screens/signup_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:velocity_x/velocity_x.dart';

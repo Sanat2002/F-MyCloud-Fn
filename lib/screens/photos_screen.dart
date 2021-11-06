@@ -5,7 +5,7 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cloud_photos/screens/photodetail_screen.dart';
+import 'package:flutter_mycloud_fn/screens/photodetail_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:firebase_storage/firebase_storage.dart';

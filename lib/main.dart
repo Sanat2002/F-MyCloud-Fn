@@ -6,8 +6,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-// import 'package:flutter_cloud_photos/screens/home_screen.dart';
-// import 'package:flutter_cloud_photos/screens/welcome_screen.dart';
+import 'package:flutter_mycloud_fn/screens/home_screen.dart';
+import 'package:flutter_mycloud_fn/screens/welcome_screen.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:lottie/lottie.dart';
 
@@ -30,21 +30,7 @@ class _MyAppState extends State<MyApp> {
 
   bool show = false;
 
-  @override
-  void initState() {
-    super.initState();
-    add();
-  }
 
-  add() async{
-    try{
-      await _dbref.child("kdk").set({
-        "kd":"sanat"
-      });
-    } on FirebaseException catch(e){
-      print(e);
-    }
-  }
   @override
   Widget build(BuildContext context) {
     var user = _auth.currentUser;
@@ -61,15 +47,15 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:"helo".text.make()
-      // home: AnimatedSplashScreen(
-      //   backgroundColor: Vx.white,
-      //   splashIconSize: 250,
-      //   duration: 3000,
-      //   animationDuration: Duration(seconds: 1),
-      //   splashTransition: SplashTransition.fadeTransition,
-      //   splash:Lottie.asset("assets/images/cloud_splash_ani.json"), 
-      //   nextScreen:show? Welcome(): Welcome()),
+      // home:"helo".text.make()
+      home: AnimatedSplashScreen(
+        backgroundColor: Vx.white,
+        splashIconSize: 250,
+        duration: 3000,
+        animationDuration: Duration(seconds: 1),
+        splashTransition: SplashTransition.fadeTransition,
+        splash:Lottie.asset("assets/images/cloud_splash_ani.json"), 
+        nextScreen:show? Home(): Welcome()),
     );
   }
 }
