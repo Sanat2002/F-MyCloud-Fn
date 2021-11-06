@@ -40,6 +40,11 @@ dependencies:
   velocity_x: ^3.3.0
   lottie: ^1.2.1
   firebase_database: ^8.1.0
+  firebase_storage: ^10.1.0
+  google_fonts: ^2.1.0
+  file_picker: ^4.2.0
+  permission_handler: ^8.2.6
+  ext_storage: ^1.0.3
 
 dev_dependencies:
   flutter_test:
