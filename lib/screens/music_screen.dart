@@ -38,7 +38,7 @@ class _MusicState extends State<Music> {
   }
 
   void getPermission() async{
-   var s=  await Permission.storage.request();
+    await Permission.storage.request();
   }
 
   downloadmusic(name) async{
