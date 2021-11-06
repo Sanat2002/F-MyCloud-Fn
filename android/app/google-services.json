@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1005252455468",
+    "firebase_url": "https://flutter-mycloud-6a1c5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutter-mycloud-6a1c5",
+    "storage_bucket": "flutter-mycloud-6a1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005252455468:android:b8bec3476f8aa0d715b589",
+        "android_client_info": {
+          "package_name": "com.example.flutter_mycloud_fn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005252455468-f9d8727gbr2n1jbsksb5b2q0bbf3q9ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjJV05rNvR9zTTaEcj9Jlg4ytRulwNzTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005252455468-f9d8727gbr2n1jbsksb5b2q0bbf3q9ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
